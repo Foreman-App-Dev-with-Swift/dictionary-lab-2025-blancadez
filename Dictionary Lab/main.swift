@@ -26,27 +26,28 @@ var practiceDictionary = ["rigmarole": "a lengthy and complicated procedure"]
 print("\n PROBLEM 1.0 : CREATE YOUR OWN \n")
 //Create a dictionary called mappingIntegers that that maps an integer (1) to its English word (one). And print it.
 
- 
- 
+var mappingIntegers : [Int : String] = [1 :"one"]
+print(mappingIntegers)
  
 print("\n PROBLEM 1.1  : TYPE OF DICTIONARY \n")
 //Add a comment describing the type of the dictionary you just made, explain why it is that type. Simple. Read and print the comment below.
 
- 
+ print("The type of dictionary is an [Int : String], the key is an integer and the value is a string. This dictionary is a short hand type of dictionary. I created this type of dictionary so it can map the interger to its english word.")
  
  
 print("\n PROBLEM 2.0 : ADVANCED DICTIONARY \n")
 //Create a dictionary called favoriteWords that maps three words to its definition. Yes, you have to look up the definitions.
 //Then print favoriteWords.
 //Use the words cumulative, mnemonic, and satire. 
-
- 
- 
+var favoriteWords : [String : String] = ["cumulative" : "increase of growing by accumalation or succseive addition",
+"mnemonic" : "a device such as a pattern of letters, ideas or associations",
+"satire" : "The use of humor, irony, exaggeration, or ridicule to expose and critize peoples stupidity"]
+ print(favoriteWords)
  
  
 print("\n PROBLEM 2.0.1 : WHAT HAPPENED IN 2.0? \n")
 //Print out what happened after running 2.0.
- 
+ print("")
  
 print("\n PROBLEM 2.0.2 : ACCESSING A DICTIONARY THROUGH A KEY \n")
  //The way we can access a dictionary and store it to a variable is by accessing the KEY ["..."] of the dictionary, this will take the associated VALUE with the inputted KEY ["..."]
